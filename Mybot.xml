@@ -1,7 +1,28 @@
 <context>
-    <input pattern="привет">
-        <output value="Приветик"/>
+    <input pattern="{(привет*|здравствуй*) [дуся]}">
+        <output>
+            <item value="Привет"/>
+            <item value="Привет привет"/>
+            <item value="Здравствуйте"/>
+        </output>
     </input>
+    
+    <input pattern="{поехали домой [дуся]}">
+        <output>
+            <item value="Поехали"/>
+            <item value="Да пора бы уже"/>
+            <item value="Жми на газ"/>
+        </output>
+    </input>
+    
+    <input pattern="* что ты об этом думаешь [дуся]}">
+        <output>
+            <item value="У меня нет слов"/>
+            <item value="Я в недоумении"/>
+            <item value="Куда катится этот мир"/>
+        </output>
+    </input>
+    
     <input pattern="* как * дела *">
         <output value="Отлично! А твои?"/>
         <context modal="true">
