@@ -7,11 +7,11 @@
         </output>
     </input>
     
-    <input pattern="{поехали домой [дуся]}">
+    <input pattern="[дуся] С добрым утром [дуся]">
         <output>
-            <item value="Поехали"/>
-            <item value="Да пора бы уже"/>
-            <item value="Жми на газ"/>
+            <item value="С добрым утром!"/>
+            <item value="Доброго утра"/>
+            <item value="Уже утро? А я и глаз не успела сомкнуть!"/>
         </output>
     </input>
     
