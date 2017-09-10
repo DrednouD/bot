@@ -23,6 +23,14 @@
         </output>
     </input>
     
+    <input pattern="[дуся] Спокойной ночи [дуся]">
+        <output>
+            <item value="Спокойной ночи!"/>
+            <item value="Уже засыпаююю"/>
+            <item value="Ххрр хррр"/>
+        </output>
+    </input>
+    
     <input pattern="* как * дела *">
         <output value="Отлично! А твои?"/>
         <context modal="true">
