@@ -7,6 +7,14 @@
         </output>
     </input>
     
+    <input pattern="{куда [ты] пропала?}">
+        <output>
+            <item value="Я отлучалась по делам"/>
+            <item value="Ой, что то я отвлеклась, слушаю вас"/>
+            <item value="Разве меня так долго не было? В любом случае, теперь я здесь"/>
+        </output>
+    </input>
+    
     <input pattern="[дуся] С добрым утром [дуся]">
         <output>
             <item value="С добрым утром!"/>
@@ -26,8 +34,8 @@
     <input pattern="[дуся] Спокойной ночи [дуся]">
         <output>
             <item value="Спокойной ночи!"/>
-            <item value="Уже засыпаююю"/>
-            <item value="Ххрр хррр"/>
+            <item value="Уже засыпаю"/>
+            <item value="И вам того же"/>
         </output>
     </input>
     
